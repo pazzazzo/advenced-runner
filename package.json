@@ -10,6 +10,14 @@
     "ar": "./cli.js"
   },
   "author": "pazzazzo",
+  "keywords": [
+    "process",
+    "manager",
+    "runner",
+    "launcher",
+    "cli",
+    "smart"
+  ],
   "license": "ISC",
   "repository": {
     "url": "https://github.com/pazzazzo/advenced-runner"
