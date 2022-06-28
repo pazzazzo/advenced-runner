@@ -1,13 +1,13 @@
 {
   "name": "advenced-runner",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A process manager for node js with advenced cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd ./test && ar start script.js"
   },
   "bin": {
-    "ar": "./cli.js"
+    "ar": "./index.js"
   },
   "author": "pazzazzo",
   "keywords": [
@@ -25,6 +25,8 @@
   "dependencies": {
     "blessed": "^0.1.81",
     "colors": "^1.4.0",
-    "fs": "^0.0.1-security"
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "pidusage": "^3.0.0"
   }
 }
