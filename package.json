@@ -1,6 +1,6 @@
 {
   "name": "advenced-runner",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A process manager for node js with advenced cli",
   "main": "index.js",
   "scripts": {
